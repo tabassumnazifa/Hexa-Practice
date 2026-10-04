@@ -1,0 +1,12 @@
+plugins {
+    // We use 'java-library' instead of just 'java' because this module
+    // will be imported by other modules.
+    id 'java-library'
+}
+
+group = 'com.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
